@@ -1,6 +1,5 @@
 package com.justpass.terminal
 
-import android.content.Intent
 import android.os.Bundle
 import android.webkit.WebChromeClient
 import android.webkit.WebSettings
@@ -10,23 +9,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.KeyEvent
 import android.net.http.SslError
 import android.webkit.SslErrorHandler
-import android.webkit.JavascriptInterface
-import androidx.activity.result.contract.ActivityResultContracts
+import android.webkit.PermissionRequest
 
 class MainActivity : AppCompatActivity() {
     private lateinit var webView: WebView
-    
-    private val qrScannerLauncher = registerForActivityResult(
-        ActivityResultContracts.StartActivityForResult()
-    ) { result ->
-        if (result.resultCode == RESULT_OK) {
-            val qrCode = result.data?.getStringExtra(QRScannerActivity.RESULT_QR_CODE)
-            qrCode?.let {
-                // Send QR code back to the WebView
-                webView.evaluateJavascript("handleQRCode('$it')", null)
-            }
-        }
-    }
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -57,7 +43,13 @@ class MainActivity : AppCompatActivity() {
             }
         }
         
-        webView.webChromeClient = WebChromeClient()
+        // Set up WebChromeClient to handle camera permissions
+        webView.webChromeClient = object : WebChromeClient() {
+            override fun onPermissionRequest(request: PermissionRequest?) {
+                // Grant camera permissions when requested by the web page
+                request?.grant(request.resources)
+            }
+        }
         
         val webSettings: WebSettings = webView.settings
         webSettings.javaScriptEnabled = true
@@ -68,18 +60,7 @@ class MainActivity : AppCompatActivity() {
         webSettings.displayZoomControls = false
         webSettings.setSupportZoom(true)
         webSettings.defaultTextEncodingName = "utf-8"
-        
-        // Add JavaScript interface for QR scanning
-        webView.addJavascriptInterface(WebViewJavaScriptInterface(), "AndroidApp")
-    }
-    
-    inner class WebViewJavaScriptInterface {
-        @JavascriptInterface
-        fun scanQRCode() {
-            // Launch QR scanner activity
-            val intent = Intent(this@MainActivity, QRScannerActivity::class.java)
-            qrScannerLauncher.launch(intent)
-        }
+        webSettings.mediaPlaybackRequiresUserGesture = false
     }
     
     override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
