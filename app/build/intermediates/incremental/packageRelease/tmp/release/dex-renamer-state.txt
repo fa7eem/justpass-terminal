@@ -1,0 +1,4 @@
+#Thu May 15 19:01:02 BST 2025
+base.0=/Users/faheem/Documents/GitHub/justpass-terminal/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

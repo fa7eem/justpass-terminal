@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.justpass.terminal.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.justpass.terminal.app-main-37:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.justpass.terminal.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.justpass.terminal.app-main-37:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.justpass.terminal.app-merged_res-35:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.justpass.terminal.app-main-37:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.justpass.terminal.app-merged_res-35:/layout_activity_main.xml.flat",
+        "source": "com.justpass.terminal.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.justpass.terminal.app-merged_res-35:/layout_activity_qr_scanner.xml.flat",
+        "source": "com.justpass.terminal.app-main-37:/layout/activity_qr_scanner.xml"
+    },
+    {
+        "merged": "com.justpass.terminal.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.justpass.terminal.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.justpass.terminal.app-merged_res-35:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.justpass.terminal.app-main-37:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.justpass.terminal.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.justpass.terminal.app-main-37:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.justpass.terminal.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.justpass.terminal.app-main-37:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.justpass.terminal.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.justpass.terminal.app-main-37:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.justpass.terminal.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.justpass.terminal.app-main-37:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.justpass.terminal.app-merged_res-35:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.justpass.terminal.app-main-37:/mipmap-hdpi/ic_launcher.png"
+    }
+]
