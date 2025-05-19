@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.justpass.terminal.app-mergeReleaseResources-33:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "com.justpass.terminal.app-mergeReleaseResources-26:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
                     "source": "/Users/faheem/.gradle/caches/transforms-3/255f42a62cc36fa79b300c2938fefb08/transformed/material-1.8.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",

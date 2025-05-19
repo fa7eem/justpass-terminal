@@ -149,17 +149,9 @@
 #-renamesourcefileattribute SourceFile
 # End of content from /Users/faheem/Documents/GitHub/justpass-terminal/app/proguard-rules.pro
 # The proguard configuration file for the following section is /Users/faheem/Documents/GitHub/justpass-terminal/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt
--keep class androidx.camera.core.impl.MetadataHolderService { <init>(); }
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
--keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
--keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver { <init>(); }
--keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService { <init>(); }
--keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
--keep class com.google.mlkit.common.internal.MlKitComponentDiscoveryService { <init>(); }
--keep class com.google.mlkit.common.internal.MlKitInitProvider { <init>(); }
 -keep class com.justpass.terminal.MainActivity { <init>(); }
--keep class com.justpass.terminal.QRScannerActivity { <init>(); }
 -keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
@@ -197,8 +189,6 @@
 -keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
-
--keep class androidx.camera.view.PreviewView { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.constraintlayout.helper.widget.Flow { <init>(android.content.Context, android.util.AttributeSet); }
 
@@ -303,45 +293,6 @@
 
 
 # End of content from /Users/faheem/.gradle/caches/transforms-3/255f42a62cc36fa79b300c2938fefb08/transformed/material-1.8.0/proguard.txt
-# The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/3ba8edf7d7e4b41520e3c1d247ef3ea2/transformed/camera-camera2-1.3.0/proguard.txt
-# Copyright (C) 2020 The Android Open Source Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-# This is necessary for default initialization using Camera2Config
--keep public class androidx.camera.camera2.Camera2Config$DefaultProvider { *; }
-
-# End of content from /Users/faheem/.gradle/caches/transforms-3/3ba8edf7d7e4b41520e3c1d247ef3ea2/transformed/camera-camera2-1.3.0/proguard.txt
-# The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/834a05c58953568e4ada42fc7e62599a/transformed/camera-core-1.3.0/proguard.txt
-# Copyright (C) 2023 The Android Open Source Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-# Keeps the quirk classes to prevent them from being merged incorrectly. For more information,
-# please see b/278818703.
--keep,allowobfuscation,allowshrinking class ** implements androidx.camera.core.impl.Quirk
-
-# End of content from /Users/faheem/.gradle/caches/transforms-3/834a05c58953568e4ada42fc7e62599a/transformed/camera-core-1.3.0/proguard.txt
 # The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/75e461774727455efed7fe90382364a9/transformed/appcompat-1.6.1/proguard.txt
 # Copyright (C) 2018 The Android Open Source Project
 #
@@ -367,131 +318,6 @@
 }
 
 # End of content from /Users/faheem/.gradle/caches/transforms-3/75e461774727455efed7fe90382364a9/transformed/appcompat-1.6.1/proguard.txt
-# The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/c5ed8fbde9d9d81e0ee8f287e99e32ba/transformed/barcode-scanning-17.2.0/proguard.txt
-# We keep all fields for every generated proto file as the runtime uses
-# reflection over them that ProGuard cannot detect. Without this keep
-# rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.mlkit_vision_barcode_bundled.zzed {
-  <fields>;
-}
-
-# This prevents the names of native methods from being obfuscated and prevents
-# UnsatisfiedLinkErrors.
--keepclasseswithmembernames class * {
-    native <methods>;
-}
-
-# End of content from /Users/faheem/.gradle/caches/transforms-3/c5ed8fbde9d9d81e0ee8f287e99e32ba/transformed/barcode-scanning-17.2.0/proguard.txt
-# The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/d38e8551a767263bd9d221d458b52f7f/transformed/common-18.9.0/proguard.txt
-# Annotations are implemented as attributes, so we have to explicitly keep them.
-# Catch all which encompasses attributes like RuntimeVisibleParameterAnnotations
-# and RuntimeVisibleTypeAnnotations
--keepattributes RuntimeVisible*Annotation*
-
-# JNI is an entry point that's hard to keep track of, so there's
-# an annotation to mark fields and methods used by native code.
-
-# Keep the annotations that proguard needs to process.
--keep class com.google.android.apps.common.proguard.UsedBy*
-
-# Just because native code accesses members of a class, does not mean that the
-# class itself needs to be annotated - only annotate classes that are
-# referenced themselves in native code.
--keep @com.google.android.apps.common.proguard.UsedBy* class * {
-  <init>();
-}
--keepclassmembers class * {
-    @com.google.android.apps.common.proguard.UsedBy* *;
-}
-
-# End of content from /Users/faheem/.gradle/caches/transforms-3/d38e8551a767263bd9d221d458b52f7f/transformed/common-18.9.0/proguard.txt
-# The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/7cb8990a5dffc53f024d4d8b6800e0c8/transformed/play-services-base-18.1.0/proguard.txt
-# b/35135904 Ensure that proguard will not strip the mResultGuardian.
--keepclassmembers class com.google.android.gms.common.api.internal.BasePendingResult {
-  com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian mResultGuardian;
-}
-
-
-
-# End of content from /Users/faheem/.gradle/caches/transforms-3/7cb8990a5dffc53f024d4d8b6800e0c8/transformed/play-services-base-18.1.0/proguard.txt
-# The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/4404cb6b09e350371b19f053eb5dbec2/transformed/play-services-tasks-18.0.2/proguard.txt
-
-
-# End of content from /Users/faheem/.gradle/caches/transforms-3/4404cb6b09e350371b19f053eb5dbec2/transformed/play-services-tasks-18.0.2/proguard.txt
-# The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/3712d2267ba49b4d2eb1f6565deeca64/transformed/play-services-basement-18.1.0/proguard.txt
-# Needed when building against pre-Marshmallow SDK.
--dontwarn android.security.NetworkSecurityPolicy
-
-# Needed when building against Marshmallow SDK.
--dontwarn android.app.Notification
-
-# Protobuf has references not on the Android boot classpath
--dontwarn sun.misc.Unsafe
--dontwarn libcore.io.Memory
-
-# Internal Google annotations for generating Proguard keep rules.
--dontwarn com.google.android.apps.common.proguard.UsedBy*
-
-# Annotations referenced by the SDK but whose definitions are contained in
-# non-required dependencies.
--dontwarn javax.annotation.**
--dontwarn org.checkerframework.**
--dontwarn com.google.errorprone.annotations.**
--dontwarn org.jspecify.nullness.NullMarked
-
-# Proguard flags for consumers of the Google Play services SDK
-# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project
-
-# Keep SafeParcelable NULL value, needed for reflection by DowngradeableSafeParcel
--keepclassmembers public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
-    public static final *** NULL;
-}
-
-# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are
-# found via reflection.
--keep class com.google.android.gms.common.internal.ReflectedParcelable
--keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable
--keepclassmembers class * implements android.os.Parcelable {
-  public static final *** CREATOR;
-}
-
-# Keep the classes/members we need for client functionality.
--keep @interface android.support.annotation.Keep
--keep @androidx.annotation.Keep class *
--keepclasseswithmembers class * {
-  @androidx.annotation.Keep <fields>;
-}
--keepclasseswithmembers class * {
-  @androidx.annotation.Keep <methods>;
-}
-
-# Keep androidX equivalent of above android.support to allow Jetification.
--keep @interface androidx.annotation.Keep
--keep @androidx.annotation.Keep class *
--keepclasseswithmembers class * {
-  @androidx.annotation.Keep <fields>;
-}
--keepclasseswithmembers class * {
-  @androidx.annotation.Keep <methods>;
-}
-
-# Keep the names of classes/members we need for client functionality.
--keep @interface com.google.android.gms.common.annotation.KeepName
--keepnames @com.google.android.gms.common.annotation.KeepName class *
--keepclassmembernames class * {
-  @com.google.android.gms.common.annotation.KeepName *;
-}
-
-# Keep Dynamite API entry points
--keep @interface com.google.android.gms.common.util.DynamiteApi
--keep @com.google.android.gms.common.util.DynamiteApi public class * {
-  public <fields>;
-  public <methods>;
-}
-
-
-
-# End of content from /Users/faheem/.gradle/caches/transforms-3/3712d2267ba49b4d2eb1f6565deeca64/transformed/play-services-basement-18.1.0/proguard.txt
 # The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/72bcb22be37fb9bf2ac231a65968b58c/transformed/fragment-1.3.6/proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
@@ -774,31 +600,6 @@
 -assumenosideeffects class androidx.startup.StartupLogger { public static <methods>; }
 
 # End of content from /Users/faheem/.gradle/caches/transforms-3/a11a0ffe75601e569b7dcb3e19f6530b/transformed/startup-runtime-1.1.1/proguard.txt
-# The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/6497a40bef84d95101d9d2c5c40698e7/transformed/transport-backend-cct-2.3.3/proguard.txt
--dontwarn com.google.auto.value.AutoValue
--dontwarn com.google.auto.value.AutoValue$Builder
-
-# End of content from /Users/faheem/.gradle/caches/transforms-3/6497a40bef84d95101d9d2c5c40698e7/transformed/transport-backend-cct-2.3.3/proguard.txt
-# The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/b55c299a2a1cd4226cd3fcd7d53540b7/transformed/transport-runtime-2.2.6/proguard.txt
--dontwarn com.google.auto.value.AutoValue
--dontwarn com.google.auto.value.AutoValue$Builder
-
-# End of content from /Users/faheem/.gradle/caches/transforms-3/b55c299a2a1cd4226cd3fcd7d53540b7/transformed/transport-runtime-2.2.6/proguard.txt
-# The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/cd7876132e7c0eafd7ba188dd1ebe9e5/transformed/transport-api-2.2.1/proguard.txt
--dontwarn com.google.auto.value.AutoValue
--dontwarn com.google.auto.value.AutoValue$Builder
-
-# End of content from /Users/faheem/.gradle/caches/transforms-3/cd7876132e7c0eafd7ba188dd1ebe9e5/transformed/transport-api-2.2.1/proguard.txt
-# The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/9536bc0091ca0e1401caf702463edc05/transformed/firebase-components-16.1.0/proguard.txt
--dontwarn com.google.firebase.components.Component$Instantiation
--dontwarn com.google.firebase.components.Component$ComponentType
-
--keep class * implements com.google.firebase.components.ComponentRegistrar
-
-# End of content from /Users/faheem/.gradle/caches/transforms-3/9536bc0091ca0e1401caf702463edc05/transformed/firebase-components-16.1.0/proguard.txt
-# The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/4832acb9924f1256b1fbde6da93b4ad7/transformed/firebase-encoders-json-17.1.0/proguard.txt
-
-# End of content from /Users/faheem/.gradle/caches/transforms-3/4832acb9924f1256b1fbde6da93b4ad7/transformed/firebase-encoders-json-17.1.0/proguard.txt
 # The proguard configuration file for the following section is /Users/faheem/.gradle/caches/transforms-3/88edbce03a995a064d868400df7ecffb/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}

@@ -39,123 +39,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="com.google.mlkit:barcode-scanning:17.2.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/c5ed8fbde9d9d81e0ee8f287e99e32ba/transformed/barcode-scanning-17.2.0/jars/classes.jar"
-      resolved="com.google.mlkit:barcode-scanning:17.2.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/c5ed8fbde9d9d81e0ee8f287e99e32ba/transformed/barcode-scanning-17.2.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/cc0c9867720569bb4131df3ce84f3d1d/transformed/play-services-mlkit-barcode-scanning-18.3.0/jars/classes.jar"
-      resolved="com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/cc0c9867720569bb4131df3ce84f3d1d/transformed/play-services-mlkit-barcode-scanning-18.3.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.mlkit:barcode-scanning-common:17.0.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/07654137d1e1ef38bacb8603e24fe938/transformed/barcode-scanning-common-17.0.0/jars/classes.jar"
-      resolved="com.google.mlkit:barcode-scanning-common:17.0.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/07654137d1e1ef38bacb8603e24fe938/transformed/barcode-scanning-common-17.0.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.mlkit:vision-common:17.3.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/7d4cadb6133ca9766db30ef89cf8a302/transformed/vision-common-17.3.0/jars/classes.jar"
-      resolved="com.google.mlkit:vision-common:17.3.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/7d4cadb6133ca9766db30ef89cf8a302/transformed/vision-common-17.3.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.mlkit:common:18.9.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/d38e8551a767263bd9d221d458b52f7f/transformed/common-18.9.0/jars/classes.jar"
-      resolved="com.google.mlkit:common:18.9.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/d38e8551a767263bd9d221d458b52f7f/transformed/common-18.9.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.android.gms:play-services-base:18.1.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/7cb8990a5dffc53f024d4d8b6800e0c8/transformed/play-services-base-18.1.0/jars/classes.jar"
-      resolved="com.google.android.gms:play-services-base:18.1.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/7cb8990a5dffc53f024d4d8b6800e0c8/transformed/play-services-base-18.1.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.mlkit:vision-interfaces:16.2.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/16f868fdc773a9035036e8befa528ba0/transformed/vision-interfaces-16.2.0/jars/classes.jar"
-      resolved="com.google.mlkit:vision-interfaces:16.2.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/16f868fdc773a9035036e8befa528ba0/transformed/vision-interfaces-16.2.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.android.gms:play-services-tasks:18.0.2@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/4404cb6b09e350371b19f053eb5dbec2/transformed/play-services-tasks-18.0.2/jars/classes.jar"
-      resolved="com.google.android.gms:play-services-tasks:18.0.2"
-      folder="/Users/faheem/.gradle/caches/transforms-3/4404cb6b09e350371b19f053eb5dbec2/transformed/play-services-tasks-18.0.2"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.android.gms:play-services-basement:18.1.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/3712d2267ba49b4d2eb1f6565deeca64/transformed/play-services-basement-18.1.0/jars/classes.jar"
-      resolved="com.google.android.gms:play-services-basement:18.1.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/3712d2267ba49b4d2eb1f6565deeca64/transformed/play-services-basement-18.1.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="androidx.fragment:fragment:1.3.6@aar"
       jars="/Users/faheem/.gradle/caches/transforms-3/72bcb22be37fb9bf2ac231a65968b58c/transformed/fragment-1.3.6/jars/classes.jar"
       resolved="androidx.fragment:fragment:1.3.6"
@@ -199,71 +82,6 @@
       jars="/Users/faheem/.gradle/caches/transforms-3/84d2438d5d7d58d3e8a052ed10c2a94b/transformed/core-ktx-1.9.0/jars/classes.jar"
       resolved="androidx.core:core-ktx:1.9.0"
       folder="/Users/faheem/.gradle/caches/transforms-3/84d2438d5d7d58d3e8a052ed10c2a94b/transformed/core-ktx-1.9.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.camera:camera-video:1.3.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/96c64c71afb0b568b456bfb92136aaf0/transformed/camera-video-1.3.0/jars/classes.jar"
-      resolved="androidx.camera:camera-video:1.3.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/96c64c71afb0b568b456bfb92136aaf0/transformed/camera-video-1.3.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.camera:camera-view:1.3.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/5c2e266af6d39cea4a93561e0a3f99bf/transformed/camera-view-1.3.0/jars/classes.jar"
-      resolved="androidx.camera:camera-view:1.3.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/5c2e266af6d39cea4a93561e0a3f99bf/transformed/camera-view-1.3.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.camera:camera-lifecycle:1.3.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/ac7b532a5ea013ba2628e63cbfe1b3aa/transformed/camera-lifecycle-1.3.0/jars/classes.jar"
-      resolved="androidx.camera:camera-lifecycle:1.3.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/ac7b532a5ea013ba2628e63cbfe1b3aa/transformed/camera-lifecycle-1.3.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.camera:camera-camera2:1.3.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/3ba8edf7d7e4b41520e3c1d247ef3ea2/transformed/camera-camera2-1.3.0/jars/classes.jar"
-      resolved="androidx.camera:camera-camera2:1.3.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/3ba8edf7d7e4b41520e3c1d247ef3ea2/transformed/camera-camera2-1.3.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.camera:camera-core:1.3.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/834a05c58953568e4ada42fc7e62599a/transformed/camera-core-1.3.0/jars/classes.jar"
-      resolved="androidx.camera:camera-core:1.3.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/834a05c58953568e4ada42fc7e62599a/transformed/camera-core-1.3.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -455,10 +273,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.annotation:annotation-experimental:1.3.1@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/47e95b19a1f1b21c6509c613366b1545/transformed/annotation-experimental-1.3.1/jars/classes.jar"
-      resolved="androidx.annotation:annotation-experimental:1.3.1"
-      folder="/Users/faheem/.gradle/caches/transforms-3/47e95b19a1f1b21c6509c613366b1545/transformed/annotation-experimental-1.3.1"
+      name="androidx.annotation:annotation-experimental:1.3.0@aar"
+      jars="/Users/faheem/.gradle/caches/transforms-3/07f05ce1292e63b578d18305388e317d/transformed/annotation-experimental-1.3.0/jars/classes.jar"
+      resolved="androidx.annotation:annotation-experimental:1.3.0"
+      folder="/Users/faheem/.gradle/caches/transforms-3/07f05ce1292e63b578d18305388e317d/transformed/annotation-experimental-1.3.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -557,36 +375,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-livedata:2.1.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/ad9f72735867ac11394c1c50275078b7/transformed/lifecycle-livedata-2.1.0/jars/classes.jar"
-      resolved="androidx.lifecycle:lifecycle-livedata:2.1.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/ad9f72735867ac11394c1c50275078b7/transformed/lifecycle-livedata-2.1.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.lifecycle:lifecycle-livedata-core:2.5.1@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/ff3f7aac57c10f6df44c088237b32b51/transformed/lifecycle-livedata-core-2.5.1/jars/classes.jar"
-      resolved="androidx.lifecycle:lifecycle-livedata-core:2.5.1"
-      folder="/Users/faheem/.gradle/caches/transforms-3/ff3f7aac57c10f6df44c088237b32b51/transformed/lifecycle-livedata-core-2.5.1"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.lifecycle:lifecycle-common:2.5.1@jar"
-      jars="/Users/faheem/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.5.1/1fdb7349701e9cf2f0a69fc10642b6fef6bb3e12/lifecycle-common-2.5.1.jar"
-      resolved="androidx.lifecycle:lifecycle-common:2.5.1"/>
-  <library
       name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
       jars="/Users/faheem/.gradle/caches/transforms-3/1465a2fb4711187a932487a2acc15028/transformed/versionedparcelable-1.1.1/jars/classes.jar"
       resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
@@ -603,6 +391,19 @@
       name="androidx.collection:collection:1.1.0@jar"
       jars="/Users/faheem/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar"
       resolved="androidx.collection:collection:1.1.0"/>
+  <library
+      name="androidx.lifecycle:lifecycle-livedata:2.0.0@aar"
+      jars="/Users/faheem/.gradle/caches/transforms-3/25e0fc7234ee08302bf01d4d1921695a/transformed/lifecycle-livedata-2.0.0/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-livedata:2.0.0"
+      folder="/Users/faheem/.gradle/caches/transforms-3/25e0fc7234ee08302bf01d4d1921695a/transformed/lifecycle-livedata-2.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
   <library
       name="androidx.arch.core:core-runtime:2.1.0@aar"
       jars="/Users/faheem/.gradle/caches/transforms-3/979c9fa726af587d8ab5c2d586f3beb2/transformed/core-runtime-2.1.0/jars/classes.jar"
@@ -621,10 +422,10 @@
       jars="/Users/faheem/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar"
       resolved="androidx.arch.core:core-common:2.1.0"/>
   <library
-      name="com.google.android.datatransport:transport-backend-cct:2.3.3@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/6497a40bef84d95101d9d2c5c40698e7/transformed/transport-backend-cct-2.3.3/jars/classes.jar"
-      resolved="com.google.android.datatransport:transport-backend-cct:2.3.3"
-      folder="/Users/faheem/.gradle/caches/transforms-3/6497a40bef84d95101d9d2c5c40698e7/transformed/transport-backend-cct-2.3.3"
+      name="androidx.lifecycle:lifecycle-livedata-core:2.5.1@aar"
+      jars="/Users/faheem/.gradle/caches/transforms-3/ff3f7aac57c10f6df44c088237b32b51/transformed/lifecycle-livedata-core-2.5.1/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-livedata-core:2.5.1"
+      folder="/Users/faheem/.gradle/caches/transforms-3/ff3f7aac57c10f6df44c088237b32b51/transformed/lifecycle-livedata-core-2.5.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -634,74 +435,9 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="com.google.android.datatransport:transport-runtime:2.2.6@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/b55c299a2a1cd4226cd3fcd7d53540b7/transformed/transport-runtime-2.2.6/jars/classes.jar"
-      resolved="com.google.android.datatransport:transport-runtime:2.2.6"
-      folder="/Users/faheem/.gradle/caches/transforms-3/b55c299a2a1cd4226cd3fcd7d53540b7/transformed/transport-runtime-2.2.6"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.android.datatransport:transport-api:2.2.1@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/cd7876132e7c0eafd7ba188dd1ebe9e5/transformed/transport-api-2.2.1/jars/classes.jar"
-      resolved="com.google.android.datatransport:transport-api:2.2.1"
-      folder="/Users/faheem/.gradle/caches/transforms-3/cd7876132e7c0eafd7ba188dd1ebe9e5/transformed/transport-api-2.2.1"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.firebase:firebase-components:16.1.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/9536bc0091ca0e1401caf702463edc05/transformed/firebase-components-16.1.0/jars/classes.jar"
-      resolved="com.google.firebase:firebase-components:16.1.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/9536bc0091ca0e1401caf702463edc05/transformed/firebase-components-16.1.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.firebase:firebase-encoders-json:17.1.0@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/4832acb9924f1256b1fbde6da93b4ad7/transformed/firebase-encoders-json-17.1.0/jars/classes.jar"
-      resolved="com.google.firebase:firebase-encoders-json:17.1.0"
-      folder="/Users/faheem/.gradle/caches/transforms-3/4832acb9924f1256b1fbde6da93b4ad7/transformed/firebase-encoders-json-17.1.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.firebase:firebase-encoders:16.1.0@jar"
-      jars="/Users/faheem/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-encoders/16.1.0/267565db8531da1483692e27eb58f93ec894c78/firebase-encoders-16.1.0.jar"
-      resolved="com.google.firebase:firebase-encoders:16.1.0"/>
-  <library
-      name="androidx.exifinterface:exifinterface:1.3.2@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/2fd0e77239a1187d4a0919c2eaf5c5ea/transformed/exifinterface-1.3.2/jars/classes.jar"
-      resolved="androidx.exifinterface:exifinterface:1.3.2"
-      folder="/Users/faheem/.gradle/caches/transforms-3/2fd0e77239a1187d4a0919c2eaf5c5ea/transformed/exifinterface-1.3.2"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
+      name="androidx.lifecycle:lifecycle-common:2.5.1@jar"
+      jars="/Users/faheem/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.5.1/1fdb7349701e9cf2f0a69fc10642b6fef6bb3e12/lifecycle-common-2.5.1.jar"
+      resolved="androidx.lifecycle:lifecycle-common:2.5.1"/>
   <library
       name="androidx.interpolator:interpolator:1.0.0@aar"
       jars="/Users/faheem/.gradle/caches/transforms-3/c9c18d34d7734ceed18e95db87ec195c/transformed/interpolator-1.0.0/jars/classes.jar"
@@ -758,31 +494,6 @@
       name="androidx.annotation:annotation:1.3.0@jar"
       jars="/Users/faheem/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.3.0/21f49f5f9b85fc49de712539f79123119740595/annotation-1.3.0.jar"
       resolved="androidx.annotation:annotation:1.3.0"/>
-  <library
-      name="com.google.guava:listenablefuture:1.0@jar"
-      jars="/Users/faheem/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar"
-      resolved="com.google.guava:listenablefuture:1.0"/>
-  <library
-      name="javax.inject:javax.inject:1@jar"
-      jars="/Users/faheem/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-      resolved="javax.inject:javax.inject:1"/>
-  <library
-      name="com.google.android.odml:image:1.0.0-beta1@aar"
-      jars="/Users/faheem/.gradle/caches/transforms-3/a1b4a0965e1389c9a6552ca06c69b729/transformed/image-1.0.0-beta1/jars/classes.jar"
-      resolved="com.google.android.odml:image:1.0.0-beta1"
-      folder="/Users/faheem/.gradle/caches/transforms-3/a1b4a0965e1389c9a6552ca06c69b729/transformed/image-1.0.0-beta1"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="com.google.firebase:firebase-annotations:16.0.0@jar"
-      jars="/Users/faheem/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-annotations/16.0.0/dbeae20d6c97b747b59ef47b6dcf770ba1a60fa6/firebase-annotations-16.0.0.jar"
-      resolved="com.google.firebase:firebase-annotations:16.0.0"/>
   <library
       name="androidx.emoji2:emoji2-views-helper:1.2.0@aar"
       jars="/Users/faheem/.gradle/caches/transforms-3/64ceac9d67a5c6c4c3ff07c7973be97e/transformed/emoji2-views-helper-1.2.0/jars/classes.jar"
@@ -865,7 +576,7 @@
       jars="/Users/faheem/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-core/1.0.4/29cdbe03ded6b0980f63fa5da2579a430e911c40/constraintlayout-core-1.0.4.jar"
       resolved="androidx.constraintlayout:constraintlayout-core:1.0.4"/>
   <library
-      name="com.google.auto.value:auto-value-annotations:1.6.3@jar"
-      jars="/Users/faheem/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.6.3/b88c1bb7f149f6d2cc03898359283e57b08f39cc/auto-value-annotations-1.6.3.jar"
-      resolved="com.google.auto.value:auto-value-annotations:1.6.3"/>
+      name="com.google.guava:listenablefuture:1.0@jar"
+      jars="/Users/faheem/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar"
+      resolved="com.google.guava:listenablefuture:1.0"/>
 </libraries>

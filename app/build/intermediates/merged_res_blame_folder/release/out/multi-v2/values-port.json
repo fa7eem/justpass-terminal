@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.justpass.terminal.app-mergeReleaseResources-33:/values-port/values-port.xml",
+            "outputFile": "com.justpass.terminal.app-mergeReleaseResources-26:/values-port/values-port.xml",
             "map": [
                 {
                     "source": "/Users/faheem/.gradle/caches/transforms-3/75e461774727455efed7fe90382364a9/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
